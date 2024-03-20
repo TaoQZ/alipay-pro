@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form name="punchout_form" method="post" action="https://openapi-sandbox.dl.alipaydev.com/gateway.do?charset=utf-8&method=alipay.trade.page.pay&sign=oLs403QdPVfW%2FNSzocoM6oe8xX%2BPKkQFc6WnEXjXNwLqFgN0CPcb54%2BdSelapTq15m9P6bp4cCvdVk0g31KpDFVAhBqjHIVaOQC%2FNr%2F8%2BRPr1N6Ifi4I09cTOY5zEWyevNVQiyjixA4ummWp%2F3IHeWKdNB2KfaUA55t8GZUJECd1zeNA11UQq%2BtVn5Y%2Bt62%2BPYoh8uDsD91eGXTXhnTlsUrmh%2BEh3ZqXWSUlJkZgypNjQv4ZDl2pYn%2Bd0N9Ij7Y5on0vhloaHrnb5CuOiCSTkrWPukykilbAWvw6GVGAONELw%2FbIX2EgIsmv0P9ERr2dDPXk9D5trFIqu1E4fpOWfA%3D%3D&return_url=http%3A%2F%2Flocalhost%3A8085%2Fsuccess.html&notify_url=http%3A%2F%2Flocalhost%3A8085%2Fcancel.html&version=1.0&app_id=9021000135623824&sign_type=RSA2&timestamp=2024-03-13+16%3A37%3A22&alipay_sdk=alipay-sdk-java-4.35.79.ALL&format=json">
+    <input type="hidden" name="biz_content" value="{&quot;out_trade_no&quot;:&quot;06&quot;,&quot;product_code&quot;:&quot;FAST_INSTANT_TRADE_PAY&quot;,&quot;subject&quot;:&quot;1&quot;,&quot;timeout_express&quot;:&quot;1h&quot;,&quot;total_amount&quot;:&quot;0.1&quot;}">
+    <input type="submit" value="立即支付" style="display:none" >
+</form>
+<script>document.forms[0].submit();</script>
+</body>
+</html>
